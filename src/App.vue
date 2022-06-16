@@ -235,7 +235,7 @@
           col-span-1
           px-20
           sm:px-32
-          md:pl-10
+          lg:pl-10
           justify-center
           pt-7
           lg:pr-0 lg:pb-5
@@ -244,11 +244,11 @@
         <img src="./assets/logo.png" alt="" class="bg-transparent" />
       </div>
 
-      <div class="grid col-span-1 justify-center">
-        <h2 class="text-2xl md:text-3xl font-bold mt-10 uppercase text-center">Quick Links</h2>
+      <div class="flex flex-col col-span-1 r">
+        <h2 class="text-2xl md:text-3xl font-bold lg:mt-10 uppercase text-center">Quick Links</h2>
 
         <ul class="">
-          <li class="text-center text-2xl my-2">
+          <li class="text-center lg:mt-10 text-2xl my-2">
             <router-link to="/" class="hover:text-[#EE6C4D]">Home</router-link>
           </li>
           <li class="text-center text-2xl my-2">
@@ -263,7 +263,7 @@
           </li>
         </ul>
 
-        <div class="grid grid-cols-3 gap-x-6 my-2">
+        <div class="hidden grid-cols-3 gap-x-6 my-2">
           <img
             class="bg-transparent"
             src="https://img.icons8.com/fluency/60/000000/instagram-new.png"
@@ -295,21 +295,21 @@
           class="
             lg:grid
             md:text-xl
-            lg:text-lg lg:-mt-10
+            lg:text-lg 2xl:-mt-10
             justify-center
             gap-x-3
             grid-cols-2
           "
         >
           <div class="lg:mr-4">
-            <span class="font-bold">Office: </span>
+            <span class="font-bold">Office/Showroom: </span>
             <p class="mb-4">
               1, Basai Road,
               Moti Nagar <br> New Delhi-110015
             </p>
             <span class="font-bold">Manufacturing Unit: </span>
             <p class="mb-4">
-              Plot No. 386, Phase - 1 <br> Industrial Estate HSIIDC Barh <br> Sonepat, Haryana
+              386, HSIIDC INDUSTRIAL ESTATE <br>Barhi, Haryana<br> Sonipat, Haryana - 131101
             </p>
           </div>
 
@@ -319,9 +319,7 @@
               <a href="tel:+91-11-43163300" class="block"
                 ><i class="bi bi-telephone-fill"></i> +91-11-43163300</a
               >
-              <a href="tel:+91-11-45061071" class="block"
-                ><i class="bi bi-telephone-fill"></i> +91-11-45061071</a
-              >
+              
             </p>
 
             <div class="hidden md:block">
