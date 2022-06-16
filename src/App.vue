@@ -309,7 +309,7 @@
             </p>
             <span class="font-bold">Manufacturing Unit: </span>
             <p class="mb-4">
-              386, HSIIDC INDUSTRIAL ESTATE <br>Barhi, Haryana<br> Sonipat, Haryana - 131101
+              386, HSIIDC Industrial Estate <br>Barhi, Haryana<br> Sonipat, Haryana - 131101
             </p>
           </div>
 
